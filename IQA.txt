@@ -1,0 +1,38 @@
+1. bucket in hashmap
+2. load factor of hashmap
+3. Data structure of phone book 
+4. How set works. How add methods works in set.
+5. Generics in Java. Customs in Generics
+6. wildcards of generics like ?,<>, T ?
+7. composition agrregation
+8. Concurrent hash map
+9. exception handle 
+10. covariant return type
+11. own annotation
+12. java docs
+13. different ways of creating object
+14. syncronized
+15. basic principle of syncronation. lock
+16. class loaders
+17. out of memory. why it happens
+18. debuginng ouy of memory exception
+19. character array in password
+20. servlet and spring controller
+21. pagination woks
+22. how to prevent back button
+23. custom tags
+24. benefits of soap
+25. headers in soap tags
+26. how to achive soap security
+27. prototype/singleton example
+28. cach manager bean type
+29. @Reqrired
+30. bean life cycle
+31. spring transaction
+32. responsive design frameworks
+14) Singleton vs Static Class?
+15) When to choose Singleton over Static Class?
+16) Can you replace Singleton with Static Class in Java?
+17) Difference between Singleton and Static Class in java?
+18) Advantage of Singleton over Static Class?
+

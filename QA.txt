@@ -1,0 +1,21 @@
+What is the difference between session.save() and session.persist() method?
+
+No.	save()	persist()
+1)	returns the identifier (Serializable) of the instance.	return nothing because its return type is void.
+2)	Syn: public Serializable save(Object o)	Syn: public void persist(Object o)
+10) What is the difference between get and load method?
+
+The differences between get() and load() methods are given below.
+
+No.	get()	load()
+1)	Returns null if object is not found.	Throws ObjectNotFoundException if object is not found.
+2)	get() method always hit the database.	load() method doesn't hit the database.
+3)	It returns real object not proxy.	It returns proxy object.
+4)	It should be used if you are not sure about the existence of instance.	It should be used if you are sure that instance exists.
+11) What is the difference between update and merge method?
+
+The differences between update() and merge() methods are given below.
+
+No.	update() method	merge() method
+1)	Update means to edit something.	Merge means to combine something.
+2)	update() should be used if session doesn't contain an already persistent state with same id. It means update should be used inside the session only. After closing the session it will throw error.	merge() should be used if you don't know the state of the session, means you want to make modification at any time.
